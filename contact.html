@@ -14,28 +14,39 @@
       <!-- navbar-->
       <nav class="navbar navbar-expand-md navbar-light" style="background-color: #e3f2fd;">
         <a class="navbar-brand ml-3 h1" href="#">
+
           <img src="assets/brand-logo.png" width="120" height="50" class="d-inline-block align-center" alt="JKM Logo">
           Justin Marchi</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
             <!-- navbar links -->
-            <ul class="navbar-nav ml-auto mr-5">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
-              </li>
-                <span class="navbar-text"> | </span>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-                <span class="navbar-text"> | </span>
-              <li class="nav-item">
-                <a class="nav-link active" href="contact.html">Contact</a>
-              </li>
-            </ul>
+            <div class="container">
+              <div class="row">
+                <div class="navbar-nav ml-auto mr-5" style="display: flex; flex-direction: row; justify-content: space-evenly; width: 100%;">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="index.html">About</a>
+                  </li>
+                    <span class="navbar-text"> | </span>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  </li>
+                    <span class="navbar-text dropdown"> | </span>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contact</a>
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
     </nav>
-    <!-- navbar end  -->
+  <!-- navbar end  -->
 
           <!-- main body portfolio list -->
-          <main class="container mt-4 ml-5 pb-5 float-md-left">
-            <div class="row">
+          <main class="container mt-4 pb-5 d-flex flex-wrap">
+            <div class="row" style="width: 100%;">
               <div class="col-md-10">
                 <div class="card">
                     <h1 class="card-title m-3">Contact<hr class="mt-3" style="height:1px; border:none; color:#333; background-color:#333"></h1>
